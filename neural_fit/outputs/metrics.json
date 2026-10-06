@@ -1,0 +1,61 @@
+{
+  "function": "z = x^2 + y^2 + 10",
+  "architecture": [
+    2,
+    10,
+    1
+  ],
+  "activation": "Tanh",
+  "parameter_count": 41,
+  "seed": 42,
+  "range": [
+    -5.0,
+    5.0
+  ],
+  "sample_counts": {
+    "train": 4096,
+    "validation": 1024,
+    "test": 2048
+  },
+  "adam_steps": 2000,
+  "lbfgs_calls": 40,
+  "selected_step": 2040,
+  "validation_mse": 8.871644833088695e-05,
+  "test_mse": 9.551273138019113e-05,
+  "test_rmse": 0.009773061515215748,
+  "test_mae": 0.007653293156239398,
+  "test_max_absolute_error": 0.04081248438468066,
+  "test_r2": 0.9999991839347764,
+  "examples": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "true": 10.0,
+      "predicted": 10.006442030297023
+    },
+    {
+      "x": 1.0,
+      "y": 2.0,
+      "true": 15.0,
+      "predicted": 14.987140866740148
+    },
+    {
+      "x": 3.0,
+      "y": 4.0,
+      "true": 35.0,
+      "predicted": 35.016979487661345
+    },
+    {
+      "x": -2.0,
+      "y": 1.0,
+      "true": 15.0,
+      "predicted": 15.005956759577492
+    },
+    {
+      "x": 5.0,
+      "y": 5.0,
+      "true": 60.0,
+      "predicted": 60.02717759943355
+    }
+  ]
+}
